@@ -1,1 +1,99 @@
-f
+body {
+  margin: 0 auto;
+  background: rgb(79, 88, 102);
+  background-size: cover;
+  background-position: center center;
+  background-attachment:fixed;
+  font-family:'Josefin Sans',serif;
+}
+.header{
+  margin: 0 auto;
+  text-align:center;
+  margin-top: 50px;
+  width: 50%;
+}
+  a:link, a:hover, a:visited{
+    text-decoration:none;
+    color: black;
+   
+    
+  }
+
+
+.block{
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  min-width:600px;
+  border-top: 2px solid white;
+  border-bottom:2px solid white;
+}
+.block:hover{
+  border-top: 2px solid rgb(229, 142, 66);
+  border-bottom:2px solid rgb(229, 142, 66);
+  background-color:rgba(229, 142, 66,.5);
+}
+  #title{
+    font-size:1em;
+    background-color:white;
+     width: 50%;
+  height: 50%;
+  position: absolute;
+  margin:auto;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align:center;
+    overflow:scroll;
+    min-height:400px;
+    min-width: 650px;
+    border: 5px solid rgb(65, 104, 168);
+  }
+
+#icon{
+  float:left;
+  padding-right: 10px;
+}
+#logo{
+    height:50px;
+  width:50px;
+  border-radius: 50%;
+  border: 5px solid rgb(79, 88, 102);
+}
+#name{
+  float:left;
+  padding-right: 10px;
+  margin-left:10px;
+  margin-top:15px;
+  font-size:1em;
+  
+}
+#description{
+  float:left;
+   margin-left:15px;
+  margin-top:15px;
+}
+.buttons{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.btn{
+  margin:0;
+}
+#top{
+  position:fixed;
+  background-color:white;
+  width:100%;
+  max-width:50%;
+  margin-top:-20px;
+  min-width:600px;
+  height:100px;
+  
+}
